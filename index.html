@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahima Chaudhari | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">MC<span>.</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <span class="badge">Welcome to my portfolio</span>
+          <h1>Hi, I'm <span class="highlight">Mahima Chaudhari</span></h1>
+          <p class="subtitle">Postgraduate MCA Student & Aspiring Software / Data Engineer passionate about Python, Machine Learning, and Web Development.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            <a href="#skills" class="btn btn-secondary">View Skills</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Mahima Chaudhari Profile Photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>I am a Master of Computer Applications (MCA) postgraduate student with a strong foundation in Computer Applications and Data Science. I specialize in building efficient software applications, analyzing complex datasets, and designing intuitive web experiences.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="timeline-card">
+            <span class="year-badge">Current</span>
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p class="institution">Postgraduate Program</p>
+            <p>Focusing on Advanced Data Structures, Machine Learning, Web Development, and Database Systems.</p>
+          </div>
+          <div class="timeline-card">
+            <span class="year-badge">Completed</span>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p class="institution">Undergraduate Program</p>
+            <p>Graduated with strong fundamentals in Computer Science, Software Engineering, and Database Management.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fa-brands fa-html5 skill-icon"></i>
+            <h3>HTML5 & CSS3</h3>
+            <p>Responsive layouts, Flexbox, CSS Grid, and modern web UI design.</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-python skill-icon"></i>
+            <h3>Python Programming</h3>
+            <p>Core syntax, OOP concepts, Pandas, Matplotlib, and Seaborn.</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-database skill-icon"></i>
+            <h3>Database & SQL</h3>
+            <p>Relational schema design, SQL queries, aggregations, and joins.</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-chart-line skill-icon"></i>
+            <h3>Data Analysis</h3>
+            <p>Data cleaning, exploratory analysis, and business dashboard creation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>Feel free to reach out for collaboration, opportunities, or inquiries!</p>
+            <div class="contact-links">
+              <a href="mailto:example@gmail.com" class="contact-item"><i class="fa-solid fa-envelope"></i> Email Me</a>
+              <a href="https://github.com/mahima5080" target="_blank" class="contact-item"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+              <a href="https://linkedin.com" target="_blank" class="contact-item"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+            </div>
+          </div>
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Mahima Chaudhari. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
